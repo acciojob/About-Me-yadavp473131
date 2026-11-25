@@ -68,3 +68,46 @@
         width: 70%;
         background-color: blue;
     }
+.skill-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 14px;
+        border-radius: 999px;
+        /* Creates a pill shape */
+        font-size: 14px;
+        font-weight: 600;
+        background-color: #f3f4f6;
+        color: #1f2937;
+        border: 1px solid #e5e7eb;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .skill-badge i {
+        font-size: 18px;
+    }
+
+    /* Hover animation */
+    .skill-badge:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Optional brand icon colors */
+    .html i {
+        color: #e34f26;
+    }
+
+    .css i {
+        color: #1572b6;
+    }
+
+    .js i {
+        color: #f7df1e;
+        background: #000;
+        border-radius: 2px;
+    }
+
+    .react i {
+        color: #61dafb;
+    }
